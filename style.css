@@ -15,6 +15,7 @@ li {
 .style_button {
   margin-left: 60px;
   font-size: 35px;
+  margin-bottom: 30px;
 }
 .btn {
   width: 50px;
@@ -22,4 +23,16 @@ li {
   background-color: #0ba518;
   border-radius: 20%;
   font-size: 30px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
