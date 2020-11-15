@@ -1,0 +1,13 @@
+.style_gallery {
+  height: 120px;
+  width: 200px;
+  border-radius: 20%;
+}
+li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.flex_list {
+  display: flex;
+}
